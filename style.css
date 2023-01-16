@@ -8,34 +8,32 @@
 }
 body {
   background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
-.card {
+main {
   background-color: white;
   border-radius: 15px;
   box-shadow: 3px 1px 20px 1px rgb(0 0 0 / 25%);
   padding: 16px 16px 40px;
-  width: 90%;
-  max-width: 350px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 320px;
 }
 img {
   border-radius: 15px;
   max-width: 100%;
   height: auto;
 }
-.card .text {
+main .text {
   text-align: center;
 }
-.card h1 {
+main h1 {
   color: hsl(218, 44%, 22%);
   margin: 15px 0;
   font-weight: 700;
 }
-.card p {
-  font-size: 12px;
+main p {
+  font-size: 15px;
   color: hsl(220, 15%, 55%);
 }
